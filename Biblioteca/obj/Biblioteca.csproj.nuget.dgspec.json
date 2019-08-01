@@ -1,0 +1,269 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca\\Biblioteca.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\Biblioteca.BO.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\Biblioteca.BO.csproj",
+        "projectName": "Biblioteca.BO",
+        "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\Biblioteca.BO.csproj",
+        "packagesPath": "C:\\Users\\eduartec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduartec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj": {
+                "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj"
+              },
+              "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj": {
+                "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj",
+        "projectName": "Biblioteca.DALC",
+        "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj",
+        "packagesPath": "C:\\Users\\eduartec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduartec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj": {
+                "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.2.6, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj",
+        "projectName": "Biblioteca.Model",
+        "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\Biblioteca.Model.csproj",
+        "packagesPath": "C:\\Users\\eduartec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduartec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca\\Biblioteca.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca\\Biblioteca.csproj",
+        "projectName": "Biblioteca",
+        "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca\\Biblioteca.csproj",
+        "packagesPath": "C:\\Users\\eduartec\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\eduartec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\Biblioteca.BO.csproj": {
+                "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.BO\\Biblioteca.BO.csproj"
+              },
+              "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj": {
+                "projectPath": "C:\\Users\\eduartec\\Source\\Repos\\biblioteca-backend\\Biblioteca.DALC\\Biblioteca.DALC.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Serilog.Extensions.Logging.File": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
