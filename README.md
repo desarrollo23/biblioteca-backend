@@ -8,3 +8,10 @@ Proyecto de biblioteca back
 
 # Migración DB
 -> Correr los siguientes comandos: add-Migration y update-database
+
+# Observaciones
+-> Se empleo JWT pero al no contar con autenticación o un usuario que se autentique, se dejo un 
+  un controlador expuesto para obtener el token. Se valida contra unas variables de ambiente "NombreUnico"
+  y "Usuario" para simular la autenticación.
+  
+-> Se empleo SeriLog.Extension.Loggin.File como recurso para el manejo de logs.
