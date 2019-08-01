@@ -5,6 +5,7 @@ Proyecto de biblioteca back
 
 # Cadena de conexión
 -> Cambiar la cadena de conexión en appsettings.json
+-> Compilar solución y con esto re construir las dependiencias.
 
 # Migración DB
 -> Correr los siguientes comandos: add-Migration y update-database
